@@ -9,7 +9,6 @@ public class MyListWithHandOverHandSpinLocking extends AbstractCompositionalIntS
     private Node head;
     private final AtomicInteger size = new AtomicInteger(0);
 
-    // Add an item to the set (only if it doesn't already exist)
     @Override
     public boolean addInt(int value) {
         if (head == null) {
@@ -39,7 +38,7 @@ public class MyListWithHandOverHandSpinLocking extends AbstractCompositionalIntS
             }
 
             if (current != null && current.value == value) {
-                return false; // Value already exists
+                return false;
             }
 
             Node newNode = new Node(value, current);
@@ -60,7 +59,6 @@ public class MyListWithHandOverHandSpinLocking extends AbstractCompositionalIntS
         }
     }
 
-    // Remove an item from the set
     @Override
     public boolean removeInt(int value) {
         if (head == null) {
@@ -84,7 +82,7 @@ public class MyListWithHandOverHandSpinLocking extends AbstractCompositionalIntS
             }
 
             if (current == null || current.value != value) {
-                return false; // Value not found
+                return false;
             }
 
             if (prev != null) {
@@ -104,7 +102,6 @@ public class MyListWithHandOverHandSpinLocking extends AbstractCompositionalIntS
         }
     }
 
-    // Check if the set contains a value
     @Override
     public boolean containsInt(int value) {
         if (head == null) {
@@ -131,7 +128,6 @@ public class MyListWithHandOverHandSpinLocking extends AbstractCompositionalIntS
         }
     }
 
-    // Print all items in the set
     public void printSet() {
         Node current = head;
         while (current != null) {
@@ -153,7 +149,6 @@ public class MyListWithHandOverHandSpinLocking extends AbstractCompositionalIntS
         System.out.println("null");
     }
 
-    // Node class with spin lock
     private static class Node {
         int value;
         Node next;
@@ -166,7 +161,6 @@ public class MyListWithHandOverHandSpinLocking extends AbstractCompositionalIntS
 
         void lock() {
             while (!lock.compareAndSet(false, true)) {
-                // Spin-wait
                 // Thread.yield();
             }
         }
