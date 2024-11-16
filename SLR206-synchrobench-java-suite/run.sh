@@ -1,10 +1,12 @@
 classes=(
    "linkedlists.lockbased.CoarseGrainedListBasedSet"
+   "linkedlists.lockbased.LockCouplingListIntSet"
 #    "linkedlists.lockbased.FineGrainedListBasedSet"
  #   "skiplists.lockfree.NonBlockingFriendlySkipListMap"
     "my.list.MyLinkedList"
     "my.list.MyListWithMutex"
     "my.list.MyListWithHandOverHandLocking"
+    "my.list.MyListWithHandOverHandSpinLocking"
 )
 
 for class in "${classes[@]}"; do
@@ -13,7 +15,7 @@ for class in "${classes[@]}"; do
         contention.benchmark.Test \
         -b "$class" \
         -W 5 \
-        -d 3000 \
+        -d 5000 \
         -t 20 \
         -i 1024 \
         -r 2048
