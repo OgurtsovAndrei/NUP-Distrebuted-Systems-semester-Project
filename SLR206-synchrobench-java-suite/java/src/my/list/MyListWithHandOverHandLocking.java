@@ -46,7 +46,9 @@ public class MyListWithHandOverHandLocking extends AbstractCompositionalIntSet {
             } else {
                 head = newNode;
             }
-            size++;
+            synchronized (this) {
+                size++;
+            }
             return true;
         } finally {
             if (current != null) {
@@ -89,7 +91,9 @@ public class MyListWithHandOverHandLocking extends AbstractCompositionalIntSet {
             } else {
                 head = current.next;
             }
-            size--;
+            synchronized (this) {
+                size--;
+            }
             return true;
         } finally {
             if (current != null) {
