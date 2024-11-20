@@ -1,12 +1,13 @@
 classes=(
-   "linkedlists.lockbased.CoarseGrainedListBasedSet"
+ #  "linkedlists.lockbased.CoarseGrainedListBasedSet"
    "linkedlists.lockbased.LockCouplingListIntSet"
 #    "linkedlists.lockbased.FineGrainedListBasedSet"
  #   "skiplists.lockfree.NonBlockingFriendlySkipListMap"
-    "my.list.MyLinkedList"
-    "my.list.MyListWithMutex"
+   # "my.list.MyLinkedList"
+   # "my.list.MyListWithMutex"
     "my.list.MyListWithHandOverHandLocking"
     "my.list.MyListWithHandOverHandSpinLocking"
+    "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking"
     "my.list.MyOptiListWithHandOverHandSpinLocking"
 )
 

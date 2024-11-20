@@ -4,27 +4,29 @@ import contention.abstractions.AbstractCompositionalIntSet;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.locks.ReentrantLock;
 
-public class MyListWithHandOverHandSpinLocking extends AbstractCompositionalIntSet {
+public class MyListWithHandOverHandMyOptimizedVolatileSpinLocking extends AbstractCompositionalIntSet {
     private Node head;
     private final AtomicInteger size = new AtomicInteger(0);
 
+    private final ReentrantLock headLock = new ReentrantLock();
+
     @Override
     public boolean addInt(int value) {
+        headLock.lock();
         if (head == null) {
-            synchronized (this) {
-                if (head == null) {
-                    head = new Node(value, null);
-                    size.incrementAndGet();
-                    return true;
-                }
-            }
+            head = new Node(value, null);
+            size.incrementAndGet();
+            headLock.unlock();
+            return true;
         }
 
         Node prev = null;
         Node current = head;
 
         current.lock();
+        headLock.unlock();
         try {
             while (current != null && current.value < value) {
                 if (prev != null) {
@@ -68,7 +70,9 @@ public class MyListWithHandOverHandSpinLocking extends AbstractCompositionalIntS
         Node prev = null;
         Node current = head;
 
+        headLock.lock();
         current.lock();
+        headLock.unlock();
         try {
             while (current != null && current.value < value) {
                 if (prev != null) {
@@ -109,42 +113,18 @@ public class MyListWithHandOverHandSpinLocking extends AbstractCompositionalIntS
         }
 
         Node current = head;
-        current.lock();
-        try {
-            while (current != null && current.value < value) {
-                Node next = current.next;
-                if (next != null) {
-                    next.lock();
-                }
-                current.unlock();
-                current = next;
-            }
-
-            return current != null && current.value == value;
-        } finally {
-            if (current != null) {
-                current.unlock();
-            }
+        while (current != null && current.value < value) {
+            current = current.next;
         }
+
+        return current != null && current.value == value;
     }
 
     public void printSet() {
         Node current = head;
         while (current != null) {
-            current.lock();
-            try {
-                System.out.print(current.value + " -> ");
-                Node next = current.next;
-                if (next != null) {
-                    next.lock();
-                }
-                current.unlock();
-                current = next;
-            } finally {
-                if (current != null) {
-                    current.unlock();
-                }
-            }
+            System.out.print(current.value + " -> ");
+            current = current.next;
         }
         System.out.println("null");
     }
@@ -152,7 +132,7 @@ public class MyListWithHandOverHandSpinLocking extends AbstractCompositionalIntS
     private static class Node {
         int value;
         Node next;
-        private final AtomicBoolean lock = new AtomicBoolean(false);
+        private volatile boolean lock = false;
 
         Node(int value, Node next) {
             this.value = value;
@@ -160,13 +140,14 @@ public class MyListWithHandOverHandSpinLocking extends AbstractCompositionalIntS
         }
 
         void lock() {
-            while (!lock.compareAndSet(false, true)) {
+            while (lock) {
                 // Thread.yield();
             }
+            lock = true;
         }
 
         void unlock() {
-            lock.set(false);
+            lock = false;
         }
     }
 

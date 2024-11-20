@@ -2,11 +2,12 @@ package my.list;
 
 import contention.abstractions.AbstractCompositionalIntSet;
 
-import java.util.concurrent.locks.ReentrantLock;
+import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.concurrent.atomic.AtomicInteger;
 
-public class MyListWithHandOverHandLocking extends AbstractCompositionalIntSet {
+public class MyListWithHandOverHandAtomicSpinLocking extends AbstractCompositionalIntSet {
     private Node head;
-    private int size = 0;
+    private final AtomicInteger size = new AtomicInteger(0);
 
     @Override
     public boolean addInt(int value) {
@@ -14,7 +15,7 @@ public class MyListWithHandOverHandLocking extends AbstractCompositionalIntSet {
             synchronized (this) {
                 if (head == null) {
                     head = new Node(value, null);
-                    size++;
+                    size.incrementAndGet();
                     return true;
                 }
             }
@@ -46,9 +47,7 @@ public class MyListWithHandOverHandLocking extends AbstractCompositionalIntSet {
             } else {
                 head = newNode;
             }
-            synchronized (this) {
-                size++;
-            }
+            size.incrementAndGet();
             return true;
         } finally {
             if (current != null) {
@@ -83,7 +82,7 @@ public class MyListWithHandOverHandLocking extends AbstractCompositionalIntSet {
             }
 
             if (current == null || current.value != value) {
-                return false; // Value not found
+                return false;
             }
 
             if (prev != null) {
@@ -91,9 +90,7 @@ public class MyListWithHandOverHandLocking extends AbstractCompositionalIntSet {
             } else {
                 head = current.next;
             }
-            synchronized (this) {
-                size--;
-            }
+            size.decrementAndGet();
             return true;
         } finally {
             if (current != null) {
@@ -122,20 +119,8 @@ public class MyListWithHandOverHandLocking extends AbstractCompositionalIntSet {
     public void printSet() {
         Node current = head;
         while (current != null) {
-            current.lock();
-            try {
-                System.out.print(current.value + " -> ");
-                Node next = current.next;
-                if (next != null) {
-                    next.lock();
-                }
-                current.unlock();
-                current = next;
-            } finally {
-                if (current != null) {
-                    current.unlock();
-                }
-            }
+            System.out.print(current.value + " -> ");
+            current = current.next;
         }
         System.out.println("null");
     }
@@ -143,7 +128,7 @@ public class MyListWithHandOverHandLocking extends AbstractCompositionalIntSet {
     private static class Node {
         int value;
         Node next;
-        private final ReentrantLock lock = new ReentrantLock();
+        private final AtomicBoolean lock = new AtomicBoolean(false);
 
         Node(int value, Node next) {
             this.value = value;
@@ -151,26 +136,26 @@ public class MyListWithHandOverHandLocking extends AbstractCompositionalIntSet {
         }
 
         void lock() {
-            lock.lock();
+            while (!lock.compareAndSet(false, true)) {
+                // Thread.yield();
+            }
         }
 
         void unlock() {
-            lock.unlock();
+            lock.set(false);
         }
     }
 
     @Override
     public int size() {
-        synchronized (this) {
-            return size;
-        }
+        return size.get();
     }
 
     @Override
     public void clear() {
         synchronized (this) {
             head = null;
-            size = 0;
+            size.set(0);
         }
     }
 }
