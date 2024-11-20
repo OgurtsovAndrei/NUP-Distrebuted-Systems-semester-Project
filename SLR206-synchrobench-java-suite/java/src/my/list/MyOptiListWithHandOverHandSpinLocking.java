@@ -7,7 +7,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class MyOptiListWithHandOverHandSpinLocking extends AbstractCompositionalIntSet {
     private Node head;
-    private SpinLock headLock;
     private final AtomicInteger size = new AtomicInteger(0);
 
     @Override
@@ -15,28 +14,26 @@ public class MyOptiListWithHandOverHandSpinLocking extends AbstractCompositional
         if (head == null) {
             synchronized (this) {
                 if (head == null) {
-                    head = new Node(value, null);
+                    head = new Node(value, null, new SpinLock());
                     size.incrementAndGet();
                     return true;
                 }
             }
         }
 
-        headLock.lock();
-
         Node prev = null;
         Node current = head;
 
-        current.lock(head, headLock);
+        current.lock();
         try {
             while (current != null && current.value < value) {
                 if (prev != null) {
-                    prev.unlock(head, headLock);
+                    prev.unlock();
                 }
                 prev = current;
                 current = current.next;
                 if (current != null) {
-                    current.lock(head, headLock);
+                    current.lock();
                 }
             }
 
@@ -44,20 +41,23 @@ public class MyOptiListWithHandOverHandSpinLocking extends AbstractCompositional
                 return false;
             }
 
-            Node newNode = new Node(value, current);
+	    SpinLock headLock = prev != null ? null : new SpinLock();
+            Node newNode = new Node(value, current, headLock);
             if (prev != null) {
                 prev.next = newNode;
             } else {
+		head.demote();
                 head = newNode;
             }
             size.incrementAndGet();
+	    newNode.unlock();
             return true;
         } finally {
             if (current != null) {
-                current.unlock(head, headLock);
+                current.unlock();
             }
             if (prev != null) {
-                prev.unlock(head, headLock);
+                prev.unlock();
             }
         }
     }
@@ -71,18 +71,16 @@ public class MyOptiListWithHandOverHandSpinLocking extends AbstractCompositional
         Node prev = null;
         Node current = head;
 
-        headLock.lock();
-
-        current.lock(head, headLock);
+        current.lock();
         try {
             while (current != null && current.value < value) {
                 if (prev != null) {
-                    prev.unlock(head, headLock);
+                    prev.unlock();
                 }
                 prev = current;
                 current = current.next;
                 if (current != null) {
-                    current.lock(head, headLock);
+                    current.lock();
                 }
             }
 
@@ -94,15 +92,16 @@ public class MyOptiListWithHandOverHandSpinLocking extends AbstractCompositional
                 prev.next = current.next;
             } else {
                 head = current.next;
+		head.promote();
             }
             size.decrementAndGet();
             return true;
         } finally {
             if (current != null) {
-                current.unlock(head, headLock);
+                current.unlock();
             }
             if (prev != null) {
-                prev.unlock(head, headLock);
+                prev.unlock();
             }
         }
     }
@@ -114,21 +113,21 @@ public class MyOptiListWithHandOverHandSpinLocking extends AbstractCompositional
         }
 
         Node current = head;
-        current.lock(head, headLock);
+        current.lock();
         try {
             while (current != null && current.value < value) {
                 Node next = current.next;
                 if (next != null) {
-                    next.lock(head, headLock);
+                    next.lock();
                 }
-                current.unlock(head, headLock);
+                current.unlock();
                 current = next;
             }
 
             return current != null && current.value == value;
         } finally {
             if (current != null) {
-                current.unlock(head, headLock);
+                current.unlock();
             }
         }
     }
@@ -136,18 +135,18 @@ public class MyOptiListWithHandOverHandSpinLocking extends AbstractCompositional
     public void printSet() {
         Node current = head;
         while (current != null) {
-            current.lock(head, headLock);
+            current.lock();
             try {
                 System.out.print(current.value + " -> ");
                 Node next = current.next;
                 if (next != null) {
-                    next.lock(head, headLock);
+                    next.lock();
                 }
-                current.unlock(head, headLock);
+                current.unlock();
                 current = next;
             } finally {
                 if (current != null) {
-                    current.unlock(head, headLock);
+                    current.unlock();
                 }
             }
         }
@@ -173,17 +172,23 @@ public class MyOptiListWithHandOverHandSpinLocking extends AbstractCompositional
     private static class Node {
         int value;
         Node next;
+    	private SpinLock headLock = null;
         private volatile boolean lock = false;
 
-        Node(int value, Node next) {
+        Node(int value, Node next, SpinLock headlock) {
             this.value = value;
             this.next = next;
+	    this.headLock = headLock;
         }
 
-        void lock(final Node head, final SpinLock headLock) {
-            if (head == this) {
-                headLock.lock();
-            }
+	void promote() {
+            headLock = new SpinLock();
+	}
+
+	void demote() { headLock = null; }
+
+        void lock() {
+            if (headLock != null) { headLock.lock(); }
 
             while (lock) {
                 // Thread.yield();
@@ -192,11 +197,9 @@ public class MyOptiListWithHandOverHandSpinLocking extends AbstractCompositional
             lock = true;
         }
 
-        void unlock(final Node head, final SpinLock headLock) {
+        void unlock() {
             lock = false;
-            if (head == this) {
-                headLock.unlock();
-            }
+            if (headLock != null) { headLock.unlock(); }
         }
     }
 
