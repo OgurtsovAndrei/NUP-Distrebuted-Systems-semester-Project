@@ -7,6 +7,7 @@ classes=(
     "my.list.MyListWithMutex"
     "my.list.MyListWithHandOverHandLocking"
     "my.list.MyListWithHandOverHandSpinLocking"
+    "my.list.MyOptiListWithHandOverHandSpinLocking"
 )
 
 for class in "${classes[@]}"; do
