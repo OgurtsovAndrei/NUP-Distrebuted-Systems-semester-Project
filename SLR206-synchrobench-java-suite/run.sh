@@ -18,7 +18,8 @@ for class in "${classes[@]}"; do
         -b "$class" \
         -W 5 \
         -d 5000 \
-        -t 20 \
+        -t 10 \
         -i 1024 \
-        -r 2048
+        -r 2048 \
+        >> "/tmp/data.txt"
 done

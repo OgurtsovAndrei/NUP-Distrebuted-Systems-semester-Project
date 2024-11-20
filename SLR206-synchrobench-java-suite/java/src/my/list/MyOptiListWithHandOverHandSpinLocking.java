@@ -178,7 +178,7 @@ public class MyOptiListWithHandOverHandSpinLocking extends AbstractCompositional
         Node(int value, Node next, SpinLock headlock) {
             this.value = value;
             this.next = next;
-	    this.headLock = headLock;
+	        this.headLock = headLock;
         }
 
 	void promote() {
