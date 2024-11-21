@@ -1,0 +1,3242 @@
+[
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_1_update_0_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_1_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_1_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_1_update_10_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_1_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_1_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_1_update_100_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_1_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_1_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_4_update_0_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_4_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_4_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_4_update_10_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_4_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_4_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_4_update_100_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_4_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_4_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_6_update_0_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_6_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_6_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_6_update_10_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_6_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_6_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_6_update_100_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_6_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_6_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_8_update_0_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_8_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_8_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_8_update_10_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_8_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_8_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_8_update_100_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_8_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_8_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_10_update_0_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_10_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_10_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_10_update_10_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_10_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_10_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_10_update_100_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_10_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_10_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_12_update_0_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_12_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_12_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_12_update_10_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_12_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_12_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_12_update_100_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_12_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.LockCouplingListIntSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_LockCouplingListIntSet/threads_12_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_1_update_0_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_1_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_1_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_1_update_10_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_1_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_1_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_1_update_100_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_1_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_1_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_4_update_0_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_4_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_4_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_4_update_10_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_4_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_4_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_4_update_100_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_4_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_4_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_6_update_0_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_6_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_6_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_6_update_10_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_6_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_6_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_6_update_100_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_6_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_6_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_8_update_0_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_8_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_8_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_8_update_10_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_8_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_8_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_8_update_100_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_8_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_8_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_10_update_0_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_10_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_10_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_10_update_10_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_10_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_10_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_10_update_100_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_10_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_10_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_12_update_0_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_12_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_12_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_12_update_10_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_12_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_12_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_12_update_100_size_100/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_12_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "linkedlists.lockbased.FineGrainedListBasedSet",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/linkedlists_lockbased_FineGrainedListBasedSet/threads_12_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_1_update_0_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_1_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_1_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_1_update_10_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_1_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_1_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_1_update_100_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_1_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_1_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_4_update_0_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_4_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_4_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_4_update_10_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_4_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_4_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_4_update_100_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_4_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_4_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_6_update_0_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_6_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_6_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_6_update_10_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_6_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_6_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_6_update_100_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_6_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_6_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_8_update_0_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_8_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_8_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_8_update_10_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_8_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_8_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_8_update_100_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_8_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_8_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_10_update_0_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_10_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_10_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_10_update_10_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_10_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_10_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_10_update_100_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_10_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_10_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_12_update_0_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_12_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_12_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_12_update_10_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_12_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_12_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_12_update_100_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_12_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithMutex",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithMutex/threads_12_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_1_update_0_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_1_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_1_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_1_update_10_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_1_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_1_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_1_update_100_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_1_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_1_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_4_update_0_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_4_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_4_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_4_update_10_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_4_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_4_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_4_update_100_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_4_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_4_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_6_update_0_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_6_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_6_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_6_update_10_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_6_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_6_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_6_update_100_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_6_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_6_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_8_update_0_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_8_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_8_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_8_update_10_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_8_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_8_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_8_update_100_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_8_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_8_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_10_update_0_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_10_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_10_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_10_update_10_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_10_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_10_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_10_update_100_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_10_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_10_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_12_update_0_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_12_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_12_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_12_update_10_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_12_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_12_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_12_update_100_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_12_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandLocking/threads_12_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_1_update_0_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_1_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_1_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_1_update_10_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_1_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_1_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_1_update_100_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_1_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_1_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_4_update_0_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_4_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_4_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_4_update_10_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_4_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_4_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_4_update_100_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_4_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_4_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_6_update_0_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_6_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_6_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_6_update_10_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_6_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_6_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_6_update_100_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_6_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_6_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_8_update_0_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_8_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_8_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_8_update_10_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_8_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_8_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_8_update_100_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_8_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_8_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_10_update_0_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_10_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_10_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_10_update_10_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_10_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_10_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_10_update_100_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_10_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_10_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_12_update_0_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_12_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_12_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_12_update_10_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_12_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_12_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_12_update_100_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_12_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandSpinLocking/threads_12_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_1_update_0_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_1_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_1_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_1_update_10_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_1_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_1_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_1_update_100_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_1_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 1,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_1_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_4_update_0_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_4_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_4_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_4_update_10_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_4_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_4_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_4_update_100_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_4_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 4,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_4_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_6_update_0_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_6_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_6_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_6_update_10_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_6_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_6_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_6_update_100_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_6_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 6,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_6_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_8_update_0_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_8_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_8_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_8_update_10_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_8_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_8_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_8_update_100_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_8_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 8,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_8_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_10_update_0_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_10_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_10_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_10_update_10_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_10_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_10_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_10_update_100_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_10_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 10,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_10_update_100_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_12_update_0_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_12_update_0_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 0,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_12_update_0_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_12_update_10_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_12_update_10_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 10,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_12_update_10_size_10000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 100,
+    "range": 200,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_12_update_100_size_100/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 1000,
+    "range": 2000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_12_update_100_size_1000/result.txt"
+  },
+  {
+    "class": "my.list.MyListWithHandOverHandMyOptimizedVolatileSpinLocking",
+    "warmup_time": 0,
+    "duration": 2000,
+    "threads": 12,
+    "initial_size": 10000,
+    "range": 20000,
+    "update_ratio": 100,
+    "result_file": "/tmp/results_20241121_220343/my_list_MyListWithHandOverHandMyOptimizedVolatileSpinLocking/threads_12_update_100_size_10000/result.txt"
+  }
+]
